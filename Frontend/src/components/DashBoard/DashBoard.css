@@ -1,0 +1,56 @@
+.dashboard {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.dashboard-item {
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.dashboard-item:hover {
+  transform: translateY(-5px);
+}
+
+.total-readers,
+.total-books,
+.edit-books,
+.available-books {
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.total-readers {
+  background-color: pink;
+}
+
+.total-books {
+  background-color: blue;
+}
+
+.edit-books {
+  background-color: red;
+}
+
+.available-books {
+  background-color: green;
+}
+
+.db-icon {
+  margin-right: 10px;
+  font-size: 80px;
+  opacity: 0.5;
+  color: lightgray;
+}
+
+.db-text {
+  color: #ffff;
+}
